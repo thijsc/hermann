@@ -79,7 +79,7 @@ end
 
 #### (MRI)
 
-MRI currently has no zookeeper / client group support.
+MRI currently has no high level consumer or timestamp support. If you need this it might be a good idea to try the [rdkafka](https://github.com/appsignal/rdkafka-ruby) gem.
 
 ```ruby
 require 'hermann'
